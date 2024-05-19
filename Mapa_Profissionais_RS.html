@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7a927f3b3903e56af97d13fdf2b3f300 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7a927f3b3903e56af97d13fdf2b3f300" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7a927f3b3903e56af97d13fdf2b3f300 = L.map(
+                "map_7a927f3b3903e56af97d13fdf2b3f300",
+                {
+                    center: [-30.5, -52.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fee65ef8ad59272bea8ad1d1372ba0b7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7a927f3b3903e56af97d13fdf2b3f300);
+        
+    
+            var marker_ae49ca7868273eebaba091616466c50c = L.marker(
+                [-27.2862616, -48.9302652],
+                {}
+            ).addTo(map_7a927f3b3903e56af97d13fdf2b3f300);
+        
+    
+            var icon_2d0b004f10f4785497560bcf1d01f565 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ae49ca7868273eebaba091616466c50c.setIcon(icon_2d0b004f10f4785497560bcf1d01f565);
+        
+    
+        var popup_3f7e891ad5462093bfa955f001af498a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6685b76f5ecc1a8e3e3640d7df7154c7 = $(`<div id="html_6685b76f5ecc1a8e3e3640d7df7154c7" style="width: 100.0%; height: 100.0%;">Nome: Flavio Felipe Dalpra<br>Tipo de Especialidade: Engenheiro civil<br>Celular: 47 99723-7874 <br>E-mail: eng.flaviodalpra@gmail.com</div>`)[0];
+                popup_3f7e891ad5462093bfa955f001af498a.setContent(html_6685b76f5ecc1a8e3e3640d7df7154c7);
+            
+        
+
+        marker_ae49ca7868273eebaba091616466c50c.bindPopup(popup_3f7e891ad5462093bfa955f001af498a)
+        ;
+
+        
+    
+    
+            marker_ae49ca7868273eebaba091616466c50c.bindTooltip(
+                `<div>
+                     1: Flavio Felipe Dalpra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99917820bdfe6dc1cae7cdc88ba81e5e = L.marker(
+                [-23.5354882, -46.6538904],
+                {}
+            ).addTo(map_7a927f3b3903e56af97d13fdf2b3f300);
+        
+    
+            var icon_27e379963a8f4cd86d0203ea01440332 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_99917820bdfe6dc1cae7cdc88ba81e5e.setIcon(icon_27e379963a8f4cd86d0203ea01440332);
+        
+    
+        var popup_84e94b53f68a293e6ee9b7de68db4c96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f7b31b2e41628796a18a8161dff7d4f = $(`<div id="html_2f7b31b2e41628796a18a8161dff7d4f" style="width: 100.0%; height: 100.0%;">Nome: Elisa Haddad de Oliveira<br>Tipo de Especialidade: Arquiteta<br>Celular: (11) 960847662<br>E-mail: elisa_haddad@yahoo.com.br</div>`)[0];
+                popup_84e94b53f68a293e6ee9b7de68db4c96.setContent(html_2f7b31b2e41628796a18a8161dff7d4f);
+            
+        
+
+        marker_99917820bdfe6dc1cae7cdc88ba81e5e.bindPopup(popup_84e94b53f68a293e6ee9b7de68db4c96)
+        ;
+
+        
+    
+    
+            marker_99917820bdfe6dc1cae7cdc88ba81e5e.bindTooltip(
+                `<div>
+                     2: Elisa Haddad de Oliveira
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b1441f98d12f136f1cef68418bb4dd0 = L.marker(
+                [-8.7660034, -63.8842481],
+                {}
+            ).addTo(map_7a927f3b3903e56af97d13fdf2b3f300);
+        
+    
+            var icon_c3c771879bdf27de93b8a2681292aaf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7b1441f98d12f136f1cef68418bb4dd0.setIcon(icon_c3c771879bdf27de93b8a2681292aaf5);
+        
+    
+        var popup_5dd9176f602bd187b929df0c270924da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b970c53e18d82f869998e3a8a8414827 = $(`<div id="html_b970c53e18d82f869998e3a8a8414827" style="width: 100.0%; height: 100.0%;">Nome: André Lucas Vieira de Oliveira<br>Tipo de Especialidade: Arquiteto e Urbanista<br>Celular: 69999028595<br>E-mail: arquiteto.andrevieira@gmail.com</div>`)[0];
+                popup_5dd9176f602bd187b929df0c270924da.setContent(html_b970c53e18d82f869998e3a8a8414827);
+            
+        
+
+        marker_7b1441f98d12f136f1cef68418bb4dd0.bindPopup(popup_5dd9176f602bd187b929df0c270924da)
+        ;
+
+        
+    
+    
+            marker_7b1441f98d12f136f1cef68418bb4dd0.bindTooltip(
+                `<div>
+                     3: André Lucas Vieira de Oliveira
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c76905225be36c487dff3d2d05548511 = L.marker(
+                [-31.7548688, -52.3140131],
+                {}
+            ).addTo(map_7a927f3b3903e56af97d13fdf2b3f300);
+        
+    
+            var icon_5948beed257646fa5b9ee59412fa144a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c76905225be36c487dff3d2d05548511.setIcon(icon_5948beed257646fa5b9ee59412fa144a);
+        
+    
+        var popup_f825cbf464d03db1ce659727ae8f3fda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2bee789508a7c3e73b64ac8989c8ff5 = $(`<div id="html_d2bee789508a7c3e73b64ac8989c8ff5" style="width: 100.0%; height: 100.0%;">Nome: Rodrigo Reis Amaral<br>Tipo de Especialidade: Engenheiro Civil<br>Celular: +55 53 981419294<br>E-mail: rodrigo_amaral_23@hotmail.com</div>`)[0];
+                popup_f825cbf464d03db1ce659727ae8f3fda.setContent(html_d2bee789508a7c3e73b64ac8989c8ff5);
+            
+        
+
+        marker_c76905225be36c487dff3d2d05548511.bindPopup(popup_f825cbf464d03db1ce659727ae8f3fda)
+        ;
+
+        
+    
+    
+            marker_c76905225be36c487dff3d2d05548511.bindTooltip(
+                `<div>
+                     4: Rodrigo Reis Amaral
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f67c23cedc36fae73a1bf36b409c085 = L.marker(
+                [-25.7739104, -53.5440106],
+                {}
+            ).addTo(map_7a927f3b3903e56af97d13fdf2b3f300);
+        
+    
+            var icon_345c0a6059e7d0f4f043b95664d2dbee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5f67c23cedc36fae73a1bf36b409c085.setIcon(icon_345c0a6059e7d0f4f043b95664d2dbee);
+        
+    
+        var popup_6795f823e0a85f019b6ddb2831d237e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2daa276b56194c7e99f44512b0406862 = $(`<div id="html_2daa276b56194c7e99f44512b0406862" style="width: 100.0%; height: 100.0%;">Nome: Regina de toni<br>Tipo de Especialidade: Engenheiro civil<br>Celular: 46 99975-1529<br>E-mail: reginadetoni@gmail.com</div>`)[0];
+                popup_6795f823e0a85f019b6ddb2831d237e1.setContent(html_2daa276b56194c7e99f44512b0406862);
+            
+        
+
+        marker_5f67c23cedc36fae73a1bf36b409c085.bindPopup(popup_6795f823e0a85f019b6ddb2831d237e1)
+        ;
+
+        
+    
+    
+            marker_5f67c23cedc36fae73a1bf36b409c085.bindTooltip(
+                `<div>
+                     5: Regina de toni
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5bc26c1478c493ed1bd879dfb0499d92 = L.marker(
+                [-22.821635, -42.99567968770695],
+                {}
+            ).addTo(map_7a927f3b3903e56af97d13fdf2b3f300);
+        
+    
+            var icon_7dd12dd0fb2491445c99348b1febd656 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5bc26c1478c493ed1bd879dfb0499d92.setIcon(icon_7dd12dd0fb2491445c99348b1febd656);
+        
+    
+        var popup_9f956e0d2bd440a247d84e0cdc7e9eff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3ca97f677ab2daae77e4c0b3cc6d8ce = $(`<div id="html_d3ca97f677ab2daae77e4c0b3cc6d8ce" style="width: 100.0%; height: 100.0%;">Nome: NATAN ALEXANDRE DO NASCIMENTO CLEMENTE<br>Tipo de Especialidade: ENG CIVIL<br>Celular: 21993983327<br>E-mail: natan.alexandre899@gmail.com</div>`)[0];
+                popup_9f956e0d2bd440a247d84e0cdc7e9eff.setContent(html_d3ca97f677ab2daae77e4c0b3cc6d8ce);
+            
+        
+
+        marker_5bc26c1478c493ed1bd879dfb0499d92.bindPopup(popup_9f956e0d2bd440a247d84e0cdc7e9eff)
+        ;
+
+        
+    
+    
+            marker_5bc26c1478c493ed1bd879dfb0499d92.bindTooltip(
+                `<div>
+                     6: NATAN ALEXANDRE DO NASCIMENTO CLEMENTE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa2b439463c20c7f7b6158401b39d528 = L.marker(
+                [-19.9435398, -44.067234],
+                {}
+            ).addTo(map_7a927f3b3903e56af97d13fdf2b3f300);
+        
+    
+            var icon_9d706f0b690d2811e0ad9347fdc49e37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aa2b439463c20c7f7b6158401b39d528.setIcon(icon_9d706f0b690d2811e0ad9347fdc49e37);
+        
+    
+        var popup_23bc4e1e0caa6f808769537a4e9b6ed4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f607fec6284ebfea3cebbb397b4f946 = $(`<div id="html_1f607fec6284ebfea3cebbb397b4f946" style="width: 100.0%; height: 100.0%;">Nome: Leonardo Pelissari Gadelha<br>Tipo de Especialidade: Engenheiro Civil e Engenheiro de Segurança do Trabalho<br>Celular: 37988384463<br>E-mail: leonardopgadelha@gmail.com</div>`)[0];
+                popup_23bc4e1e0caa6f808769537a4e9b6ed4.setContent(html_1f607fec6284ebfea3cebbb397b4f946);
+            
+        
+
+        marker_aa2b439463c20c7f7b6158401b39d528.bindPopup(popup_23bc4e1e0caa6f808769537a4e9b6ed4)
+        ;
+
+        
+    
+    
+            marker_aa2b439463c20c7f7b6158401b39d528.bindTooltip(
+                `<div>
+                     7: Leonardo Pelissari Gadelha
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
